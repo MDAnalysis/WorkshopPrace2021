@@ -1,0 +1,42 @@
+name: mda-workshop-2021
+channels:
+  - conda-forge
+  - biobuilds
+dependencies:
+  - biopython
+  - chemfiles>=0.9
+  - clustalw=2.1
+  - cython
+  - dask
+  - graphviz
+  - griddataformats
+  - gsd
+  - h5py
+  - hypothesis
+  - ipywidgets
+  - ipykernel
+  - joblib>=0.12
+  - jupyter_contrib_nbextensions==0.5.1
+  - matplotlib==3.2.2
+  - mdanalysis
+  - MDAnalysisTests
+  - mdanalysisdata
+  - mmtf-python
+  - netcdf4
+  - networkx
+  - nglview==2.7.7
+  - numpy==1.20.2
+  - openmm
+  - parmed
+  - plotly==4.14.1
+  - pip==20.3.3
+  - python
+  - pytest==6.1.2
+  - rdkit>=2020.03.1
+  - scipy
+  - scikit-learn
+  - seaborn>=0.7.0
+  - threadpoolctl
+  - tidynamics>=1.0.0
+  - tqdm>=4.43.0
+
