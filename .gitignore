@@ -1,0 +1,20 @@
+# python
+__pycache__/
+.mypy_cache
+*.pyc
+.coverage
+
+# jupyter
+.ipynb_checkpoints
+
+# editors
+.vscode
+.idea
+*~
+.swp
+
+# os
+.DS_Store
+
+# generated files
+*.npz
