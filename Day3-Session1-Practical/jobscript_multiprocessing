@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#SBATCH -J multiprocessing_job
+#SBATCH -n 1
+#SBATCH --cpus-per-task 4
+#SBATCH -N 1
+#SBATCH -t 00:10:00
+#SBATCH -p normal
+#SBATCH --reservation=parallel_mda
+
+## SBATCH flag explanation (read more under man sbatch)
+# -J multiprocessing_job  The job name.
+# -n 1                    How many tasks (programs) are you planning on running. In this case, only one.
+# --cpus-per-task 4       How many cpus will be assigned to the task.
+# -N 1                    Over how many different nodes (computers) do we want to run our program. Must be only 1 when using multiprocessing, as it cannot communicate over nodes.
+# -t 00:10:00             How long to reserve the computing resources for. Should the job exceed this requested time, the cluster may kill it.
+# -p and --reservation    The cluster resources to use. Check your cluster's documentation to know which partition/reservation you should use.
+
+# This file loads the workshop-related modules and Python environment (which uses anaconda).
+# Consult your cluster's documentation to know which modules you should load in your case.
+source /project/jhlsrf005/JHL_hooks/env
+
+# Any text output will be collected in slurm .out and .error log files
+./parallelism.py
