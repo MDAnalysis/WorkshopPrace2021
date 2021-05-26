@@ -1,4 +1,4 @@
-# Using MDAnalysis for Efficient Simulation Pre- and Post-Processing
+# Using MDAnalysis for Efficient Simulation Pre- and Post-Processing [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MDAnalysis/WorkshopPrace2021/HEAD)
 
 ## Contents
 
@@ -26,6 +26,12 @@ jupyter nbextension enable codefolding/main
 jupyter nbextension enable limit_output/main
 jupyter nbextension enable toc2/main
 ```
+
+
+## Binder
+
+The tutorial materials can be accessed online via binder.
+To launch the binder instance, click [here](https://mybinder.org/v2/gh/MDAnalysis/WorkshopPrace2021/HEAD).
 
 
 ## License
