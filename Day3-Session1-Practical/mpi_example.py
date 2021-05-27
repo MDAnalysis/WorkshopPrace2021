@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import MDAnalysis as mda
 import numpy as np
 from mpi4py import MPI

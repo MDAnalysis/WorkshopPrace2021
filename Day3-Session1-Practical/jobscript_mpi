@@ -6,10 +6,8 @@
 #SBATCH --ntasks-per-node 2
 #SBATCH -N 2
 #SBATCH -t 00:10:00
-#SBATCH -p shared
-
-##normal
-##SBATCH --reservation=parallel_mda
+#SBATCH -p normal
+#SBATCH --reservation=parallel_mda
 
 ## SBATCH flag explanation (read more under man sbatch)
 # -J MPI_job            The job name.
