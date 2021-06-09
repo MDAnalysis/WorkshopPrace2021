@@ -78,7 +78,7 @@ The workshop is structured in the following manner:
     class.
 
 
-## Day 3:
+### Day 3:
 
 1. `Day3-Session1-Lecture`
   * `MDAParallelization.pdf`
