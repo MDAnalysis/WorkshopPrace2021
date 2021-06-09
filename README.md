@@ -39,5 +39,5 @@ To launch the binder instance, click [here](https://mybinder.org/v2/gh/MDAnalysi
 The code examples in this repository are licensed under the GPL version 2.0
 license. Non-code content is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International license. The MDAnalysis logo and its
-derivatives are licensed under Creative Commons Attribution-NoDerivs 3.0
+derivatives are licensed under the Creative Commons Attribution-NoDerivs 3.0
 Unported License.
