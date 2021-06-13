@@ -2,8 +2,8 @@
 
 ## Contents
 
-This repository contains the materials for the 3 day MDAnalysis 2021 PRACE/SURF
-workshop.
+This repository contains the materials for the 3-day [MDAnalysis 2021 PRACE/SURF
+workshop](https://www.mdanalysis.org/2021/04/09/prace-workshop/).
 
 
 The workshop is structured in the following manner:
