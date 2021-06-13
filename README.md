@@ -117,28 +117,21 @@ The workshop is structured in the following manner:
     SURF / PRACE workshop closing remarks.
 
 
-
 ## Setting up your python environment
 
-In order to access this material, several python packages must be installed. A full
-list can be seen inside `environment.yml`.
+Instructions for seting up your environment to run this workshop locally
+are providing in [`INSTALL.md`](INSTALL.md).
 
-To set up the environment (using conda), the following can be done:
-
-```bash
-conda env create --name envname --file=environments.yml
-jupyter contrib nbextension install --user
-jupyter nbextension enable splitcell/splitcell
-jupyter nbextension enable rubberband/main
-jupyter nbextension enable exercise2/main
-jupyter nbextension enable autosavetime/main
-jupyter nbextension enable collapsible_headings/main
-jupyter nbextension enable codefolding/main
-jupyter nbextension enable limit_output/main
-jupyter nbextension enable toc2/main
-```
+A full list of the required python packages can be seen inside [`environment.yml`](environment.yml).
 
 **Note: this workshop uses the beta release of MDAnalysis 2.0.0.**
+
+
+## Course pre-requisites
+
+The course assumes that attendees have a working proficiency in using
+[jupyter notebooks][1], python (especially the [numpy library][2]), and the
+bash shell.
 
 
 ## Binder
@@ -154,3 +147,17 @@ license. Non-code content is licensed under the Creative Commons
 Attribution-ShareAlike 4.0 International license. The MDAnalysis logo and its
 derivatives are licensed under the Creative Commons Attribution-NoDerivs 3.0
 Unported License.
+
+
+## Acknowledgements
+
+Please see [`AUTHORS.md`](AUTHORS.md) for a list contributors to the workshop
+materials.
+
+Special acknowlegements go to the [2018 MDAnalysis Workshop and Hackathon][3]
+which these materials build on.
+
+
+[1]: https://jupyter-notebook.readthedocs.io/en/stable/
+[2]: https://numpy.org/
+[3]: https://github.com/MDAnalysis/WorkshopHackathon2018
