@@ -3,25 +3,25 @@
 ## Overview
 
 This workshop is delivered mainly through a series of [Jupyter notebooks][1]
-that allow for interactive python programming.
+that allow for interactive Python programming.
 
-To use these, several python packages must be installed. A full list of these
+To use these, several Python packages must be installed. A full list of these
 can be found in [`environment.yml`](environment.yml). See below for
-instructions on how to set up a local copy of the python environment.
+instructions on how to set up a local copy of the Python environment.
 
 **Note: at this time, the workshop requires the beta version of MDAnalysis 2.0.0.**
 
 
-## Installing the python environment
+## Installing the Python environment
 
 Due to the complexity of the workshop environment, we strongly recommend the
-use of the [anaconda python distribution][2]. Our instructions, provided here,
+use of the [Anaconda Python distribution][2]. The instructions provided here
 assume the use of [conda][3].
 
 ### 1. Creating a workshop environment
 
 To create an environment named `mda-workshop2021` with all the necessary
-python dependencies:
+Python dependencies:
 
 ```bash
 conda env create --name mda-workshop2021 --file=environments.yml
@@ -30,9 +30,9 @@ conda env create --name mda-workshop2021 --file=environments.yml
 See the [conda documentation][4] for more information on how to access and
 manage [conda][3] environments.
 
-### 2. Activating the jupyter extensions
+### 2. Activating the Jupyter extensions
 
-The workshop leverages the extended utility of several jupyter nbextensions.
+The workshop leverages the extended utility of several Jupyter nbextensions.
 
 To install these, the followed should be run **once** (after having activated
 the conda environment):

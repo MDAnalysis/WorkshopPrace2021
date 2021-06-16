@@ -119,10 +119,13 @@ The workshop is structured in the following manner:
 
 ## Setting up your python environment
 
-Instructions for seting up your environment to run this workshop locally
-are providing in [`INSTALL.md`](INSTALL.md).
+Instructions for setting up your environment to run this workshop locally
 
-A full list of the required python packages can be seen inside [`environment.yml`](environment.yml).
+are provided in [`INSTALL.md`](INSTALL.md).
+
+
+A full list of the required Python packages can be seen inside [`environment.yml`](environment.yml).
+
 
 **Note: this workshop uses the beta release of MDAnalysis 2.0.0.**
 
@@ -130,7 +133,8 @@ A full list of the required python packages can be seen inside [`environment.yml
 ## Course pre-requisites
 
 The course assumes that attendees have a working proficiency in using
-[jupyter notebooks][1], python (especially the [numpy library][2]), and the
+[Jupyter notebooks][1], Python (especially the [NumPy library][2]), and the
+
 bash shell.
 
 
@@ -151,7 +155,8 @@ Unported License.
 
 ## Acknowledgements
 
-Please see [`AUTHORS.md`](AUTHORS.md) for a list contributors to the workshop
+Please see [`AUTHORS.md`](AUTHORS.md) for a list of contributors to the workshop
+
 materials.
 
 Special acknowlegements go to the [2018 MDAnalysis Workshop and Hackathon][3]
